@@ -1,4 +1,5 @@
 import org.junit.Before;
+import org.junit.Test;
 
 import br.gft.model.Juiz;
 
@@ -9,6 +10,12 @@ public class JuizTest {
 	@Before
 	public void setUp() {
 		juiz = new Juiz();
+	}
+	
+	@Test
+	public void papelGanhaDePedra() {
+		String mensagem = juiz.resposta("Papel", "Pedra");
+		System.out.println(mensagem);
 	}
 
 }
