@@ -18,5 +18,11 @@ public class JuizTest {
 		System.out.println(mensagem);
 	}
 	
+	@Test
+	public void PedraGanhaDeTesoura() {
+		String mensagem = juiz.resposta("Pedra", "Tesoura");
+		System.out.println(mensagem);
+	}
+	
 
 }
