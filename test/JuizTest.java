@@ -17,5 +17,6 @@ public class JuizTest {
 		String mensagem = juiz.resposta("Papel", "Pedra");
 		System.out.println(mensagem);
 	}
+	
 
 }
