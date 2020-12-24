@@ -24,5 +24,10 @@ public class JuizTest {
 		System.out.println(mensagem);
 	}
 	
+	@Test
+	public void TesouraGanhaDePapel() {
+		String mensagem = juiz.resposta("Tesoura", "Papel");
+		System.out.println(mensagem);
+	}
 
 }
