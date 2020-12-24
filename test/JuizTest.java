@@ -29,5 +29,11 @@ public class JuizTest {
 		String mensagem = juiz.resposta("Tesoura", "Papel");
 		System.out.println(mensagem);
 	}
+	
+	@Test
+	public void empateEntreOsJogadores() {
+		String mensagem = juiz.resposta("Tesoura", "Tesoura");
+		System.out.println(mensagem);
+	}
 
 }
